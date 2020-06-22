@@ -4,9 +4,109 @@
     "x": 0,
     "y": 0,
     "uniqueID": 238959,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "corner radius",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.23313905079100747,
+            "y": 0.1737704918032787,
+            "uniqueID": 692401,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x/2"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.19150707743547044,
+            "y": 0.2819672131147541,
+            "uniqueID": 469603,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "corner radius",
+            "x": 0.013333333333333334,
+            "y": 0.3704918032786885,
+            "uniqueID": 870860,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.3047460449625312,
+            "y": 0.30491803278688523,
+            "uniqueID": 527654,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 5
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 5
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20233139050791007,
+            "y": 0.4262295081967213,
+            "uniqueID": 488553,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20233139050791007,
+            "y": 0.5573770491803278,
+            "uniqueID": 928337,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20649458784346378,
+            "y": 0.6918032786885246,
+            "uniqueID": 889555,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
         {
             "atomType": "Output",
             "name": "Output",
@@ -15,6 +115,65 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
-    "fileTypeVersion": 1
+    "allConnectors": [
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 692401,
+            "ap2ID": 527654
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": 692401,
+            "ap2ID": 527654
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 469603,
+            "ap2ID": 527654
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 870860,
+            "ap2ID": 469603
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 870860,
+            "ap2ID": 488553
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 870860,
+            "ap2ID": 928337
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 870860,
+            "ap2ID": 889555
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 870860,
+            "ap2ID": 692401
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": "1"
 }
