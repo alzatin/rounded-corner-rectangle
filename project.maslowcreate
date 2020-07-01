@@ -205,19 +205,6 @@
             ]
         },
         {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.6586178184845961,
-            "y": 0.23606557377049184,
-            "uniqueID": 234952,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Basics"
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.20649458784346378,
@@ -256,6 +243,19 @@
                 {
                     "name": "zDist",
                     "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.7910725356478611,
+            "y": 0.39197530864197533,
+            "uniqueID": 234952,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Basics"
                 }
             ]
         },
@@ -421,12 +421,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 355789
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 355789,
@@ -459,6 +453,12 @@
             "ap2Primary": false,
             "ap1ID": 802325,
             "ap2ID": 355789
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 234952
         },
         {
             "ap1Name": "result",
